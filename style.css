@@ -746,6 +746,7 @@ color: #036D6C;
 .why_choose_card {
    display: flex;
    gap: 48px;
+   margin-top: 43px;
 }
 /* Why Choose Us End  */
 
@@ -858,7 +859,7 @@ color: #0E0D0D;
 
 }
 .cta_btn {
-   margin-right: 70px;
+   margin-right: -29px;
 }
 
 .cta_btn {
@@ -1399,14 +1400,20 @@ margin-bottom: 10px;
       overflow: hidden;
   }
 
-
+  .sing_up_btn {
+   background-color: #F6C228;
+   padding: 6px 50px;
+   border-radius: 35px;
+}
 
 
 
    .navbar_logo img {
-      position: relative;
-      bottom: -1px;
-      max-width: 70px;
+      
+         position: relative;
+         bottom: 21px;
+         max-width: 64px;
+     
   }
   .btn_wrapper {
    gap: 9px;
@@ -1460,12 +1467,12 @@ margin-bottom: 10px;
 .price {
    position: relative;
    top: 48px;
-   right: 33px;
+   right: 77px;
 }
 .cta_main_btn {
    position: relative;
-    bottom: 42px;
-    left: 188px;
+   bottom: 47px;
+   left: 124px 
 }
 
 
@@ -1502,7 +1509,7 @@ margin-bottom: 10px;
    display: flex;
    flex-direction:column;
    justify-content: center;
-   padding-top: 9px;
+   padding-top: 40px;
  
 }
 .card_first img {
@@ -1539,7 +1546,9 @@ margin-bottom: 10px;
 
  }
  
-
+ .cta_btn_main {
+   padding-bottom: 159px;
+}
 
 .heading_cta h1 {
    font-size: 20px;
@@ -1555,9 +1564,20 @@ bottom: 0px;
  
 } 
 
+/* footer strat  */
+.footer_text_logo_socile_icon {
+   padding-left: 18px;
+   padding-bottom: 404px;
+}
+.FQ {
+  flex-direction: column;
 
-
-
+}
+.btn_wrapper {
+  
+    margin-bottom: -144px;
+    margin-left: -116px;
+}
 }
 
 
